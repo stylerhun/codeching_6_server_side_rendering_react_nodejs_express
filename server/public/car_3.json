@@ -1,0 +1,8 @@
+{
+  "id": 3,
+  "name": "Lada",
+  "color": "brown",
+  "parts": [
+    { "id": 1, "name": "Window", "num": 6 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Audi",
+  "color": "green",
+  "parts": [
+    { "id": 1, "name": "Wheels", "num": 4 },
+    { "id": 2, "name": "Radio", "num": 1 }
+  ]
+}

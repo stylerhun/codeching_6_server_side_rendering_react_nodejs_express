@@ -1,0 +1,28 @@
+[
+  {
+    "provider": "CarProvider",
+    "services": [
+      {
+        "url": "{backendBaseUrl}/cars",
+        "service": "getCars",
+        "reactRoutes": ["^$", "/cars$"],
+        "stateName": "cars",
+        "payload": []
+      },
+      {
+        "url": "{backendBaseUrl}/employee",
+        "reactRoutes": ["^$", "/cars$"],
+        "service": "getEmployee",
+        "stateName": "employee",
+        "payload": []
+      },
+      {
+        "url": "{backendBaseUrl}/cars/[1]",
+        "reactRoutes": ["/cars/([0-9]+)$"],
+        "service": "getCar",
+        "stateName": "car",
+        "payload": {}
+      }
+    ]
+  }
+]

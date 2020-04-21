@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "name": "Ferrari",
+  "color": "red",
+  "parts": [
+    { "id": 1, "name": "Motor", "num": 1 },
+    { "id": 2, "name": "Seat heat", "num": 2 },
+    { "id": 3, "name": "Camera", "num": 6 }
+  ]
+}

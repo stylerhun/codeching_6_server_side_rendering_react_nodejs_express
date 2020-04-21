@@ -1,0 +1,62 @@
+body {
+  margin: 100px;
+}
+
+.car-list, .employee-list {
+  margin: 40px;
+}
+
+.part-list {
+  margin: 40px 0;
+}
+
+.employee, .part {
+  background: #CCC;
+  margin: 4px;
+  border-radius: 4px 3px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.title, .btn{
+  margin: 18px 4px;
+  font-weight: bold;
+}
+
+.subtitle{
+  margin: 10px 4px;
+  font-size: 10pt;
+}
+
+.data{
+  margin: 10px 4px;
+  font-size: 10pt;
+  color: blue;
+}
+.btn-back{
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.list-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn-select{
+  text-decoration: none;
+  color: #2857c7;
+  font-weight: bold;
+}
+
+.car-color{
+  padding: 8px;
+  border: 1px solid #CCC;
+  text-align: center;
+}
+
+.cell {
+  min-width: 10vw;
+}
